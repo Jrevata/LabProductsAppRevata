@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.revata.labproductosapp.app.labproductsapprevata.activities.LogInActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/usuario"
+        android:layout_marginBottom="50px"
+
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="User"
+        android:layout_centerInParent="true"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/usuario"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20px"
+        android:onClick="logIn"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginBottom="20px"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_below="@+id/login"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Registrar"
+        android:onClick="Registrar"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/cardview_light_background"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
