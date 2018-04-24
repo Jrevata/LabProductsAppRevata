@@ -35,18 +35,19 @@
 
 
     </RelativeLayout>
+
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="70dp"
-        android:layout_marginEnd="32dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignEnd="@+id/unview"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="20dp"
         android:clickable="true"
         android:onClick="callRegisterForm"
+        app:backgroundTint="@android:color/darker_gray"
         app:fabSize="normal"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        android:layout_above="@+id/bottom_navigation"/>
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"

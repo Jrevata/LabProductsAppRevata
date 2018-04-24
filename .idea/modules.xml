@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LabProductsAppRevata.iml" filepath="$PROJECT_DIR$/LabProductsAppRevata.iml" />
       <module fileurl="file://C:\Users\USER\AndroidStudioProjects\LabProductsAppRevata\LabProductsAppRevata.iml" filepath="C:\Users\USER\AndroidStudioProjects\LabProductsAppRevata\LabProductsAppRevata.iml" />
+      <module fileurl="file://D:\ALUMNO\ServicioFireBaseApp\LabProductsAppRevata\LabProductsAppRevata.iml" filepath="D:\ALUMNO\ServicioFireBaseApp\LabProductsAppRevata\LabProductsAppRevata.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\ALUMNO\ServicioFireBaseApp\LabProductsAppRevata\app\app.iml" filepath="D:\ALUMNO\ServicioFireBaseApp\LabProductsAppRevata\app\app.iml" />
       <module fileurl="file://C:\Users\USER\AndroidStudioProjects\LabProductsAppRevata\app\app.iml" filepath="C:\Users\USER\AndroidStudioProjects\LabProductsAppRevata\app\app.iml" />
     </modules>
   </component>

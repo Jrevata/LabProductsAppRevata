@@ -19,7 +19,7 @@ public class UserRepository {
 
     public static User logIn(String username, String contrasena){
         List<User> users= SugarRecord.listAll(User.class);
-        User user = new User();
+        User user = null;
 
         for(int i = 0; i < users.size(); i++){
             if(users.get(i).getUsuario().equals(username) && users.get(i).getPassword().equals(contrasena))
