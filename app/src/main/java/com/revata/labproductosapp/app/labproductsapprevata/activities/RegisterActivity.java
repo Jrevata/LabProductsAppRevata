@@ -1,4 +1,4 @@
-package com.revata.labproductosapp.app.labproductsapprevata;
+package com.revata.labproductosapp.app.labproductsapprevata.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.revata.labproductosapp.app.labproductsapprevata.R;
 import com.revata.labproductosapp.app.labproductsapprevata.activities.LogInActivity;
 import com.revata.labproductosapp.app.labproductsapprevata.models.User;
 import com.revata.labproductosapp.app.labproductsapprevata.repositories.UserRepository;

@@ -7,15 +7,13 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.revata.labproductosapp.app.labproductsapprevata.MenuActivity;
 import com.revata.labproductosapp.app.labproductsapprevata.R;
-import com.revata.labproductosapp.app.labproductsapprevata.RegisterActivity;
 import com.revata.labproductosapp.app.labproductsapprevata.models.User;
 import com.revata.labproductosapp.app.labproductsapprevata.repositories.UserRepository;
 
 public class LogInActivity extends AppCompatActivity {
 
-
+    public static String nombre;
     private EditText username,password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +38,7 @@ public class LogInActivity extends AppCompatActivity {
 
         if(userconf!=null){
             Intent intent = new Intent(this, MenuActivity.class);
-            intent.putExtra("username", userconf.getNombre());
+            nombre = userconf.getNombre();
             startActivity(intent);
 
         }else

@@ -10,8 +10,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Un texto"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:textStyle="bold"/>
 
+    <View
+        android:id="@+id/unview"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@+id/usuario_nombre"
+        android:background="#bdbdbd"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/unview"
+        android:layout_above="@+id/bottom_navigation">
+
+
+    </RelativeLayout>
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

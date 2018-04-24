@@ -23,7 +23,7 @@ public class Product {
         this.precio = precio;
         this.descripcion = descripcion;
         this.favorito = false;
-        this.archivado = true;
+        this.archivado = false;
     }
 
     public String getNombre() {
